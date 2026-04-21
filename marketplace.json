@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "company-superpowers-plugin",
-      "source": "https://github.com/your-org/company-superpowers-plugin.git",
+      "source": "https://github.com/Pasanbasuru/company-superpowers-plugin.git",
       "description": "Reusable company plugin with shared skills, agents, hooks, and MCP integrations."
     }
   ]
