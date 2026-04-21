@@ -3,13 +3,21 @@
   "owner": {
     "name": "Your Company"
   },
+  "metadata": {
+    "description": "Private marketplace for company Claude Code plugins",
+    "version": "0.1.0"
+  },
+  "allowCrossMarketplaceDependenciesOn": [
+    "claude-plugins-official",
+    "superpowers-dev"
+  ],
   "plugins": [
     {
-      "name": "company-superpowers-plugin",
-      "description": "Reusable company plugin with shared skills, agents, hooks, and MCP integrations.",
+      "name": "company-plugin",
+      "description": "Reusable company plugin with shared skills, agents, hooks, MCP templates, and external plugin dependencies.",
       "source": {
         "source": "github",
-        "repo": "Pasanbasuru/company-superpowers-plugin",
+        "repo": "Pasanbasuru/company-plugin",
         "ref": "main"
       }
     }

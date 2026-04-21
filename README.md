@@ -8,7 +8,7 @@ Private plugin marketplace for internal Claude Code plugins.
 ## Add this marketplace
 In Claude Code:
 
-/plugin marketplace add https://github.com/Pasanbasuru/company-superpowers-plugin
+/plugin marketplace add https://github.com/Pasanbasuru/company-claude-marketplace
 
 ## Install plugin
 /plugin install company-superpowers-plugin@company-plugins
