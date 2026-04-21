@@ -1,0 +1,17 @@
+{
+  "name": "company-plugins",
+  "owner": {
+    "name": "Your Company"
+  },
+  "plugins": [
+    {
+      "name": "company-superpowers-plugin",
+      "description": "Reusable company plugin with shared skills, agents, hooks, and MCP integrations.",
+      "source": {
+        "source": "github",
+        "repo": "Pasanbasuru/company-superpowers-plugin",
+        "ref": "main"
+      }
+    }
+  ]
+}
