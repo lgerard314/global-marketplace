@@ -8,8 +8,7 @@
     "version": "0.1.0"
   },
   "allowCrossMarketplaceDependenciesOn": [
-    "claude-plugins-official",
-    "superpowers-dev"
+    "claude-plugins-official"
   ],
   "plugins": [
     {
