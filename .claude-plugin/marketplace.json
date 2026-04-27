@@ -1,10 +1,10 @@
 {
-  "name": "company-plugins",
+  "name": "global-plugins",
   "owner": {
-    "name": "Your Company"
+    "name": "logan"
   },
   "metadata": {
-    "description": "Private marketplace for company Claude Code plugins",
+    "description": "Private marketplace for logan's Claude Code plugins",
     "version": "0.1.0"
   },
   "allowCrossMarketplaceDependenciesOn": [
@@ -12,11 +12,11 @@
   ],
   "plugins": [
     {
-      "name": "company-plugin",
-      "description": "Reusable company plugin with shared skills, agents, hooks, MCP templates, and external plugin dependencies.",
+      "name": "global-plugin",
+      "description": "Reusable plugin with shared skills, agents, hooks, MCP templates, and external plugin dependencies.",
       "source": {
         "source": "github",
-        "repo": "Pasanbasuru/company-plugin",
+        "repo": "lgerard314/global-plugin",
         "ref": "main"
       }
     }
