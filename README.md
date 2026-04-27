@@ -1,17 +1,17 @@
-# Company Claude Marketplace
+# Global Claude Marketplace
 
-Private plugin marketplace for internal Claude Code plugins.
+Private plugin marketplace for logan's Claude Code plugins.
 
 ## Included plugins
-- company-superpowers-plugin
+- global-plugin
 
 ## Add this marketplace
 In Claude Code:
 
-/plugin marketplace add https://github.com/Pasanbasuru/company-claude-marketplace
+/plugin marketplace add https://github.com/lgerard314/global-marketplace
 
 ## Install plugin
-/plugin install company-superpowers-plugin@company-plugins
+/plugin install global-plugin@global-plugins
 
 ## Update marketplace
 /plugin marketplace update
