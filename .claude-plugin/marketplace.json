@@ -17,7 +17,8 @@
       "source": {
         "source": "github",
         "repo": "lgerard314/global-plugin",
-        "ref": "main"
+        "ref": "main",
+        "path": "plugin"
       }
     }
   ]
