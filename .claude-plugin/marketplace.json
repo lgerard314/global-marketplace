@@ -21,6 +21,16 @@
       }
     },
     {
+      "name": "global-plugin-dev",
+      "description": "Dev/staging build of global-plugin pinned to the dev branch — for pre-promotion testing only.",
+      "source": {
+        "source": "github",
+        "repo": "lgerard314/global-plugin",
+        "ref": "dev",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "board",
       "description": "Anti-staleness governance for Claude-Code-driven planning under BOARD/plans/. Hooks enforce frontmatter, splitting rules, and locked-leaf immutability; /board:* commands scaffold initiatives, author and lock SPEC/PLAN leaves, query <board-*> tag blocks, and promote ADRs to docs/ADRS.md.",
       "source": {
