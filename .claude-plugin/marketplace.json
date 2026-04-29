@@ -14,8 +14,8 @@
     {
       "name": "global-plugin",
       "source": {
-        "source": "github",
-        "repo": "lgerard314/global-plugin",
+        "source": "git-subdir",
+        "url": "https://github.com/lgerard314/global-plugin.git",
         "ref": "main",
         "path": "plugin"
       }
@@ -24,8 +24,8 @@
       "name": "global-plugin-dev",
       "description": "Dev/staging build of global-plugin pinned to the dev branch — for pre-promotion testing only.",
       "source": {
-        "source": "github",
-        "repo": "lgerard314/global-plugin",
+        "source": "git-subdir",
+        "url": "https://github.com/lgerard314/global-plugin.git",
         "ref": "dev",
         "path": "plugin"
       }
