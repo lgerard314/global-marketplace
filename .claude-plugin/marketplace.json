@@ -14,10 +14,10 @@
     {
       "name": "global-plugin",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/lgerard314/global-plugin.git",
-        "path": "plugin",
-        "ref": "main"
+        "source": "github",
+        "repo": "lgerard314/global-plugin",
+        "ref": "main",
+        "path": "plugin"
       }
     }
   ]
