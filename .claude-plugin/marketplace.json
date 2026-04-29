@@ -13,10 +13,10 @@
   "plugins": [
     {
       "name": "global-plugin",
-      "description": "Reusable plugin with shared skills, agents, hooks, MCP templates, and external plugin dependencies.",
       "source": {
-        "source": "github",
-        "repo": "lgerard314/global-plugin",
+        "source": "git-subdir",
+        "url": "https://github.com/lgerard314/global-plugin.git",
+        "path": "plugin",
         "ref": "main"
       }
     }
