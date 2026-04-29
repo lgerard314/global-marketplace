@@ -19,6 +19,19 @@
         "ref": "main",
         "path": "plugin"
       }
+    },
+    {
+      "name": "board",
+      "description": "Anti-staleness governance for Claude-Code-driven planning under BOARD/plans/. Hooks enforce frontmatter, splitting rules, and locked-leaf immutability; /board:* commands scaffold initiatives, author and lock SPEC/PLAN leaves, query <board-*> tag blocks, and promote ADRs to docs/ADRS.md.",
+      "source": {
+        "source": "github",
+        "repo": "lgerard314/board-plugin",
+        "ref": "main",
+        "path": "plugin"
+      },
+      "category": "development",
+      "homepage": "https://github.com/lgerard314/board-plugin",
+      "keywords": ["governance", "planning", "adr", "superpowers", "staleness", "anti-staleness", "spec", "plan"]
     }
   ]
 }
