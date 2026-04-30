@@ -17,6 +17,7 @@ Private plugin marketplace for logan's Claude Code plugins. Entries live in [.cl
 - **prisma** — Prisma MCP (Postgres, migrations, queries) ([prisma.io](https://prisma.io); [repo](https://github.com/prisma/claude-plugin), pinned commit in marketplace)
 - **deploy-on-aws** — AWS deployment, IaC, cost guidance ([awslabs/agent-plugins](https://github.com/awslabs/agent-plugins))
 - **semgrep** — security-oriented coding support ([semgrep/mcp-marketplace](https://github.com/semgrep/mcp-marketplace))
+- **marketing-skills** — CRO, copywriting, SEO, paid ads, creative, and growth skills ([coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills))
 
 Anthropic authoring and workflow helpers (SDK, hooks, MCP, PR review, commits, reporting) are mirrored in **[Additional Plugins](#additional-plugins)**.
 
@@ -60,6 +61,7 @@ Examples:
 /plugin install global-plugin@global-plugins
 /plugin install board@global-plugins
 /plugin install superpowers@global-plugins
+/plugin install marketing-skills@global-plugins
 ```
 
 ## Update marketplace
