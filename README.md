@@ -6,18 +6,22 @@ Private plugin marketplace for logan's Claude Code plugins. Entries live in [.cl
 
 **Custom**
 
-- **global-plugin** ([repo](https://github.com/lgerard314/global-plugin))
-- **global-plugin-dev** — staging build pinned to `dev`; pre-promotion testing only
-- **board** — planning governance under `BOARD/plans/` ([repo](https://github.com/lgerard314/board-plugin))
+| Plugin | What it does | When to install | Contents (skills, commands, hooks, agents, etc.) |
+| --- | --- | --- | --- |
+| **global-plugin** | Shared personal plugin for this marketplace | Default custom tooling you publish for yourself | [Repo](https://github.com/lgerard314/global-plugin); `git-subdir` → `plugin/` on `main` |
+| **global-plugin-dev** | Same plugin family, staging channel | Testing before promoting `global-plugin` to `main` | Same repo, `plugin/` on **`dev`** (`ref` in marketplace) |
+| **board** | Planning governance under `BOARD/plans/` — frontmatter, locked leaves, ADR promotion, `/board:*` | Claude-driven BOARD SPEC/PLAN / anti-staleness workflows | [Repo](https://github.com/lgerard314/board-plugin); hooks + slash commands |
 
 **Curated**
 
-- **superpowers** — TDD, debugging, brainstorming, workflow skills ([obra/superpowers](https://github.com/obra/superpowers))
-- **frontend-design** — production-grade frontend UI guidance ([Anthropic plugin tree](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design))
-- **prisma** — Prisma MCP (Postgres, migrations, queries) ([prisma.io](https://prisma.io); [repo](https://github.com/prisma/claude-plugin), pinned commit in marketplace)
-- **deploy-on-aws** — AWS deployment, IaC, cost guidance ([awslabs/agent-plugins](https://github.com/awslabs/agent-plugins))
-- **semgrep** — security-oriented coding support ([semgrep/mcp-marketplace](https://github.com/semgrep/mcp-marketplace))
-- **marketing-skills** — CRO, copywriting, SEO, paid ads, creative, and growth skills ([coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills))
+| Plugin | What it does | When to install | Contents (skills, commands, hooks, agents, etc.) |
+| --- | --- | --- | --- |
+| **superpowers** | TDD, systematic debugging, brainstorming, subagent workflows, skill authoring habits | obra-style engineering discipline in-session | [obra/superpowers](https://github.com/obra/superpowers): skills tree, hooks, commands; full-repo `url` install |
+| **frontend-design** | Production-grade frontend UI (layout, type, cohesion; avoids generic AI chrome) | Building or reviewing web UI | Anthropic monorepo [`frontend-design`](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design): **skills** |
+| **prisma** | Prisma MCP: Postgres, migrations, queries, connection management | Prisma / Prisma Postgres work with Claude | [prisma/claude-plugin](https://github.com/prisma/claude-plugin) + MCP config in plugin tree; pinned **SHA** in marketplace |
+| **deploy-on-aws** | AWS architecture, IaC, deploy paths, cost awareness | Designing or deploying to AWS via agent guidance | AWS Labs [`plugins/deploy-on-aws`](https://github.com/awslabs/agent-plugins/tree/main/plugins/deploy-on-aws): skills, hooks |
+| **semgrep** | Secure coding oriented around Semgrep | You want vulnerability-aware edits with Semgrep in the loop | [`semgrep/mcp-marketplace`](https://github.com/semgrep/mcp-marketplace) `plugin/` subdir |
+| **marketing-skills** | CRO, copywriting, SEO, paid ads, creative, growth | Marketing/growth workflows alongside coding | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills): `skills/`, **`marketing-skills@global-plugins`** install id |
 
 Anthropic authoring and workflow helpers (SDK, hooks, MCP, PR review, commits, reporting) are mirrored in **[Additional Plugins](#additional-plugins)**.
 
