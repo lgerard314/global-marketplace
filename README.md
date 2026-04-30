@@ -8,8 +8,7 @@ Private plugin marketplace for logan's Claude Code plugins. Entries live in [.cl
 
 | Plugin | What it does | When to install | Contents (skills, commands, hooks, agents, etc.) |
 | --- | --- | --- | --- |
-| **global-plugin** | Shared personal plugin for this marketplace | Default custom tooling you publish for yourself | [Repo](https://github.com/lgerard314/global-plugin); `git-subdir` → `plugin/` on `main` |
-| **global-plugin-dev** | Same plugin family, staging channel | Testing before promoting `global-plugin` to `main` | Same repo, `plugin/` on **`dev`** (`ref` in marketplace) |
+| **global-plugin** | ~25 guardrail skills for React/Next.js + NestJS + Prisma + AWS, plus `/init-mcp` and `/suggest-mod` slash commands | Default custom tooling for any consumer repo | [Repo](https://github.com/lgerard314/global-plugin); `git-subdir` → `plugin/` on `main` |
 | **board** | Planning governance under `BOARD/plans/` — frontmatter, locked leaves, ADR promotion, `/board:*` | Claude-driven BOARD SPEC/PLAN / anti-staleness workflows | [Repo](https://github.com/lgerard314/board-plugin); hooks + slash commands |
 
 **Curated**

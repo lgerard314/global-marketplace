@@ -13,20 +13,11 @@
   "plugins": [
     {
       "name": "global-plugin",
+      "description": "Company-wide Claude Code plugin: ~25 guardrail skills for full-stack React/Next.js + Node/NestJS + Prisma/Postgres + AWS, plus /init-mcp and /suggest-mod slash commands.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/lgerard314/global-plugin.git",
         "ref": "main",
-        "path": "plugin"
-      }
-    },
-    {
-      "name": "global-plugin-dev",
-      "description": "Dev/staging build of global-plugin pinned to the dev branch — for pre-promotion testing only.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/lgerard314/global-plugin.git",
-        "ref": "dev",
         "path": "plugin"
       }
     },
