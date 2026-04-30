@@ -42,6 +42,66 @@
       "category": "development",
       "homepage": "https://github.com/lgerard314/board-plugin",
       "keywords": ["governance", "planning", "adr", "superpowers", "staleness", "anti-staleness", "spec", "plan"]
+    },
+    {
+      "name": "superpowers",
+      "description": "Superpowers teaches Claude brainstorming, subagent driven development with built in code review, systematic debugging, and red/green TDD. Additionally, it teaches Claude how to author and test new skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      },
+      "homepage": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics.",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "ref": "main",
+        "path": "plugins/frontend-design"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design"
+    },
+    {
+      "name": "prisma",
+      "description": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prisma/claude-plugin.git",
+        "sha": "815dbc4a045a29e3b81510ba0e3ab806f1baaf0e"
+      },
+      "homepage": "https://prisma.io"
+    },
+    {
+      "name": "deploy-on-aws",
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+      "category": "deployment",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/awslabs/agent-plugins.git",
+        "ref": "main",
+        "path": "plugins/deploy-on-aws"
+      },
+      "homepage": "https://github.com/awslabs/agent-plugins"
+    },
+    {
+      "name": "semgrep",
+      "description": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/semgrep/mcp-marketplace.git",
+        "ref": "main",
+        "path": "plugin"
+      },
+      "homepage": "https://github.com/semgrep/mcp-marketplace"
     }
   ]
 }
