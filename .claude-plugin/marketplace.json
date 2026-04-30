@@ -269,19 +269,6 @@
         "path": "plugins/session-report"
       },
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report"
-    },
-    {
-      "name": "marketing-skills",
-      "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
-      "author": {
-        "name": "Corey Haines"
-      },
-      "category": "productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/coreyhaines31/marketingskills.git"
-      },
-      "homepage": "https://github.com/coreyhaines31/marketingskills"
     }
   ]
 }

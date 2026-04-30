@@ -1,6 +1,6 @@
 # Global Claude Marketplace
 
-Private plugin marketplace for logan's Claude Code plugins. Entries live in [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json). This catalog lists **your own plugins** plus **curated mirrors** wired to upstream repositories (matching [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) where applicable). The marketplace also declares `allowCrossMarketplaceDependenciesOn: ["claude-plugins-official"]` so installs can resolve dependencies against Anthropic's official catalog.
+Private plugin marketplace for logan's Claude Code plugins. Canonical plugin names and sources are in [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) (**18 plugins**: two custom, five mirrored “core” integrations, eleven Anthropic authoring / workflow helpers). This catalog aggregates **your own plugins** plus **curated mirrors** wired to upstream repositories (matching [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) where applicable). The marketplace declares `allowCrossMarketplaceDependenciesOn: ["claude-plugins-official"]` so installs can resolve dependencies against Anthropic's official catalog.
 
 ## Included plugins
 
@@ -17,12 +17,11 @@ Private plugin marketplace for logan's Claude Code plugins. Entries live in [.cl
 | --- | --- | --- | --- |
 | **superpowers** | TDD, systematic debugging, brainstorming, subagent workflows, skill authoring habits | obra-style engineering discipline in-session | [obra/superpowers](https://github.com/obra/superpowers): skills tree, hooks, commands; full-repo `url` install |
 | **frontend-design** | Production-grade frontend UI (layout, type, cohesion; avoids generic AI chrome) | Building or reviewing web UI | Anthropic monorepo [`frontend-design`](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design): **skills** |
-| **prisma** | Prisma MCP: Postgres, migrations, queries, connection management | Prisma / Prisma Postgres work with Claude | [prisma/claude-plugin](https://github.com/prisma/claude-plugin) + MCP config in plugin tree; pinned **SHA** in marketplace |
+| **prisma** | Prisma MCP: Postgres, migrations, queries, connection management | Prisma / Prisma Postgres work with Claude | [prisma.io](https://prisma.io); [prisma/claude-plugin](https://github.com/prisma/claude-plugin); MCP in plugin tree; pinned **SHA** in `marketplace.json` |
 | **deploy-on-aws** | AWS architecture, IaC, deploy paths, cost awareness | Designing or deploying to AWS via agent guidance | AWS Labs [`plugins/deploy-on-aws`](https://github.com/awslabs/agent-plugins/tree/main/plugins/deploy-on-aws): skills, hooks |
 | **semgrep** | Secure coding oriented around Semgrep | You want vulnerability-aware edits with Semgrep in the loop | [`semgrep/mcp-marketplace`](https://github.com/semgrep/mcp-marketplace) `plugin/` subdir |
-| **marketing-skills** | CRO, copywriting, SEO, paid ads, creative, growth | Marketing/growth workflows alongside coding | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills): `skills/`, **`marketing-skills@global-plugins`** install id |
 
-Anthropic authoring and workflow helpers (SDK, hooks, MCP, PR review, commits, reporting) are mirrored in **[Additional Plugins](#additional-plugins)**.
+Anthropic authoring and workflow helpers (Agent SDK setup, MCP builder, **`/code-review`**, **`commit-commands`**, **`hookify`**, **`session-report`**, …) are listed in **[Additional Plugins](#additional-plugins)**—the same **`name`** values as in **`marketplace.json`**.
 
 ## Additional Plugins
 
@@ -64,7 +63,7 @@ Examples:
 /plugin install global-plugin@global-plugins
 /plugin install board@global-plugins
 /plugin install superpowers@global-plugins
-/plugin install marketing-skills@global-plugins
+/plugin install prisma@global-plugins
 ```
 
 ## Update marketplace
